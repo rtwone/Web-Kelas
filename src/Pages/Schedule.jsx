@@ -96,7 +96,8 @@ const Schedule = () => {
         >
           Picket
         </div>
-        {currentPiketNames && currentPiketNames.length > 0 ? (
+        <p className="opacity-50">Maintenance</p>
+        {/*{currentPiketNames && currentPiketNames.length > 0 ? (
           currentPiketNames.map((piketName, index) => (
             <div
               key={index}
@@ -106,13 +107,12 @@ const Schedule = () => {
               data-aos="fade-up"
               data-aos-duration={600 + index * 100}
             >
-              {/*<div className="text-base font-medium">{piketName}</div>*/}
-              <p className="opacity-50">Maintenance</p>
+              <div className="text-base font-medium">{piketName}</div>
             </div>
           ))
         ) : (
           <p className="opacity-50">Maaf Sistem Jadwal Sedang ada perbaikan</p>
-        )}
+        )}*/}
       </div>
     </>
   );
