@@ -107,7 +107,7 @@ const Schedule = () => {
               data-aos-duration={600 + index * 100}
             >
               {/*<div className="text-base font-medium">{piketName}</div>*/}
-              <div className="text-base font-medium">Maintenance</div>
+              <p className="opacity-50">Maintenance</p>
             </div>
           ))
         ) : (
