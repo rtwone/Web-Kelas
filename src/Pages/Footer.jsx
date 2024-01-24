@@ -21,7 +21,7 @@ const Footer = () => {
 							<ul class="text-gray-400 dark:text-gray-400 font-medium">
 								<li class="mb-2">
 									<a href="https://www.instagram.com/irfann._x" class="hover:underline">
-										IRFAN
+										Irfan H.
 									</a>
 								</li>
 							</ul>
