@@ -29,7 +29,7 @@ const Footer = () => {
 						<div className="">
 							<h2 class="mb-4 text-sm font-semibold uppercase text-white">Follow us</h2>
 							<ul class="text-gray-400 dark:text-gray-400 font-medium">
-								<li class="mb-2">
+								<li>
 									<a href="https://www.instagram.com/rocient" class="hover:underline ">
 										Instagram
 									</a>
