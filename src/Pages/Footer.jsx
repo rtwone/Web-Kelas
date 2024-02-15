@@ -39,6 +39,11 @@ const Footer = () => {
 										Tiktok
 									</a>
 								</li>
+								<li>
+									<a href="https://www.youtube.com/@rocient" class="hover:underline ">
+										YouTube
+									</a>
+								</li>
 							</ul>
 						</div>
 						<div className="hidden md:block">
