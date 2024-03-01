@@ -3,11 +3,11 @@ const Jumat = () => {
 		<>
 			<div className="border-t-2 border-b-2 border-white flex justify-between py-[0.50rem] w-72 px-3" data-aos="fade-up" data-aos-duration="600">
 				<div className="w-[50%] text-base  font-medium">KNK</div>
-				<div className="flex justify-center items-center text-sm">06:45 - 09:25</div>
+				<div className="flex justify-center items-center text-sm">06:45 - 09:20</div>
 			</div>
 			<div className="border-t-2 border-b-2 border-white flex justify-between py-[0.50rem] w-72 px-3" data-aos="fade-up" data-aos-duration="600">
 				<div className="w-[50%] text-base  font-medium">Bahasa Inggris</div>
-				<div className="flex justify-center items-center text-sm">09:40 - 11:00</div>
+				<div className="flex justify-center items-center text-sm">09:20 - 10:30</div>
 			</div>
 		</>
 	)
