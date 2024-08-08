@@ -48,6 +48,14 @@ const Schedule = () => {
     ];
   }
 
+  piketGroup = [
+    ["Abdillah", "Aisyah", "Syafina", "Ilham", "Moh Ferdi"],
+    ["Selvi", "Irfan", "Amel", "Kussi", "Ridho"],
+    ["Nazara", "Rizky", "Dya", "Syahel", "Aris"],
+    ["Fiqi", "Ifa", "Devi", "Igun"],
+    ["Rayhan", "Dewi", "Ferdynov", "Indah"]
+  ]
+
   const dayComponents = [
     null, // Kosongkan indeks 0
     Senin,
@@ -97,7 +105,7 @@ const Schedule = () => {
           Picket
         </div>
         <p className="opacity-50">Maintenance</p>
-        {/*{currentPiketNames && currentPiketNames.length > 0 ? (
+        {{currentPiketNames && currentPiketNames.length > 0 ? (
           currentPiketNames.map((piketName, index) => (
             <div
               key={index}
@@ -112,7 +120,7 @@ const Schedule = () => {
           ))
         ) : (
           <p className="opacity-50">Tidak Ada Jadwal Hari Ini</p>
-        )}*/}
+        )}}
       </div>
     </>
   );
