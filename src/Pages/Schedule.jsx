@@ -104,7 +104,7 @@ const Schedule = () => {
         >
           Picket
         </div>
-        <p className="opacity-50">Maintenance</p>
+{/*         <p className="opacity-50">Maintenance</p> */}
         {{currentPiketNames && currentPiketNames.length > 0 ? (
           currentPiketNames.map((piketName, index) => (
             <div
