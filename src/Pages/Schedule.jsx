@@ -26,35 +26,33 @@ const Schedule = () => {
     AOS.refresh();
   }, []);
 
-  let piketGroup = [];
+  // // Menentukan kelompok piket berdasarkan minggu saat ini
+  // if (currentWeek === 2 || currentWeek === 4) {
+  //   piketGroup = [
+  //     ["Nicolas", "Togi", "Paulista", "Damar"],
+  //     ["Farel", "Jeriko", "Wahyu", "Davina"],
+  //     ["Alya", "Hendri", "Hisyam", "Dafy"],
+  //     ["Putri", "Natar", "Wahid", "Fadliansyah"],
+  //     ["Cariska", "Pratiwi", "Ridho", "Farji"],
+  //   ];
+  //   /* sementara tuker week - masih perbaikan */
+  // } else if (currentWeek === 1 || currentWeek === 3) {
+  //   piketGroup = [
+  //     ["Annissa", "Daus", "Eki", "Attala"],
+  //     ["Sera", "Sultan", "Dimas", "Lista"],
+  //     ["Windi", "Amel", "Arif", "Fadli"],
+  //     ["Zaini", "Dendi", "Raka", "Bari"],
+  //     ["Putri", "Paulista", "Nila"],
+  //   ];
+  // }
 
-  // Menentukan kelompok piket berdasarkan minggu saat ini
-  if (currentWeek === 2 || currentWeek === 4) {
-    piketGroup = [
-      ["Nicolas", "Togi", "Paulista", "Damar"],
-      ["Farel", "Jeriko", "Wahyu", "Davina"],
-      ["Alya", "Hendri", "Hisyam", "Dafy"],
-      ["Putri", "Natar", "Wahid", "Fadliansyah"],
-      ["Cariska", "Pratiwi", "Ridho", "Farji"],
-    ];
-    /* sementara tuker week - masih perbaikan */
-  } else if (currentWeek === 1 || currentWeek === 3) {
-    piketGroup = [
-      ["Annissa", "Daus", "Eki", "Attala"],
-      ["Sera", "Sultan", "Dimas", "Lista"],
-      ["Windi", "Amel", "Arif", "Fadli"],
-      ["Zaini", "Dendi", "Raka", "Bari"],
-      ["Putri", "Paulista", "Nila"],
-    ];
-  }
-
-  piketGroup = [
+  let piketGroup = [
     ["Abdillah", "Aisyah", "Syafina", "Ilham", "Moh Ferdi"],
     ["Selvi", "Irfan", "Amel", "Kussi", "Ridho"],
     ["Nazara", "Rizky", "Dya", "Syahel", "Aris"],
     ["Fiqi", "Ifa", "Devi", "Igun"],
     ["Rayhan", "Dewi", "Ferdynov", "Indah"]
-  ]
+  ];
 
   const dayComponents = [
     null, // Kosongkan indeks 0
