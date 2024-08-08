@@ -102,8 +102,6 @@ const Schedule = () => {
         >
           Picket
         </div>
-        {{currentPiketNames && currentPiketNames.length > 0 ? (
-          currentPiketNames.map((piketName, index) => (
             <div
               key={index}
               className={` border-t-2 border-white flex justify-center py-[0.50rem] w-72 px-3 ${
@@ -114,10 +112,6 @@ const Schedule = () => {
             >
               <div className="text-base font-medium">{piketName}</div>
             </div>
-          ))
-        ) : (
-          <p className="opacity-50">Tidak Ada Jadwal Hari Ini</p>
-        )}}
       </div>
     </>
   );
